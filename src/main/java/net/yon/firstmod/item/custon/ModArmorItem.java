@@ -57,7 +57,7 @@ public class ModArmorItem extends ArmorItem {
         List<MobEffectInstance> effectsPlayerDoesntHave = new ArrayList<MobEffectInstance>(mapStatusEffects.length);
         for(int i=0; i<mapStatusEffects.length; i++) {
             //hasPlayerEffects = player.hasEffect(mapStatusEffect[i].getEffect()); //check if the effect given to us in the parameters is active on the player
-            if(!player.hasEffect(mapStatusEffects[i].getEffect())) {
+            if(!player.hasEffect(mapStatusEffects[i].getEffect()) || player.getEffect(mapStatusEffects[i].getEffect()).getDuration() <= 200) {
                effectsPlayerDoesntHave.add(mapStatusEffects[i]);
                 //hasPlayerEffects = false;
             }
