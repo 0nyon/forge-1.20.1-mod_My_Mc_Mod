@@ -235,6 +235,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get())) // what item unlocks this recipe in the recipe book
                 .save(consumer);
 
+        //wizard hat
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZARD_HAT.get() /*result of the recipe*/) // Shaped Recipe
+                .pattern("GGG") // {
+                .pattern("G G") //   pattern of recipe
+                .pattern("   ") // }
+                .define('G', Items.TINTED_GLASS) // keys
+                .unlockedBy(getHasName(Items.TINTED_GLASS), has(Items.TINTED_GLASS)) // what item unlocks this recipe in the recipe book
+                .save(consumer);
+
         //amogus
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AMOGUS.get() /*result of the recipe*/) // Shaped Recipe
                 .pattern("   ") // {
