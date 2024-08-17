@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "firstmod:cooked_tropical_fish"
+    },
+    "P": {
+      "item": "firstmod:coal_powder"
+    },
+    "W": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "pattern": [
+    "   ",
+    "FWF",
+    "PPP"
+  ],
+  "result": {
+    "item": "firstmod:cat"
+  },
+  "show_notification": true
+}

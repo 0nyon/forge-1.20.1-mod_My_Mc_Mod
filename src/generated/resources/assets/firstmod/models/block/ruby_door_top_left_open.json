@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "firstmod:block/ruby_door_bottom",
+    "top": "firstmod:block/ruby_door_top"
+  }
+}

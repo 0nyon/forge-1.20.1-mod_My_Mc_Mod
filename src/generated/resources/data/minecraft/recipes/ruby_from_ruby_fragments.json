@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "firstmod:ruby_fragment"
+    }
+  },
+  "pattern": [
+    "   ",
+    " FF",
+    " FF"
+  ],
+  "result": {
+    "item": "firstmod:ruby"
+  },
+  "show_notification": true
+}

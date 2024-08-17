@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DDD",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "firstmod:fake_diamond_pickaxe"
+  },
+  "show_notification": true
+}

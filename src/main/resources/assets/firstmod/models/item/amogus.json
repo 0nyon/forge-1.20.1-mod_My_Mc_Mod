@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "firstmod:item/amogus_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "firstmod:item/amogus_2d"
+    },
+    "ground": {
+      "parent": "firstmod:item/amogus_2d"
+    },
+    "fixed": {
+      "parent": "firstmod:item/amogus_2d"
+    }
+  }
+}

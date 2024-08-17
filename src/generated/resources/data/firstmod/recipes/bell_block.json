@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QGQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "firstmod:bell_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+// 1.20.1	2024-07-22T15:33:49.6923968	Loot Tables
+fdf8d88eb3905edbaa12da3795e92a141b1399d3 data/firstmod/loot_tables/blocks/bell_block.json
+2a23fbf3a8be958b421c6200db098f8b7ffbbd13 data/firstmod/loot_tables/blocks/ruby_block.json
+a2eb7169454efbfad3a77559d3c3167c8eb2400b data/firstmod/loot_tables/blocks/ruby_button.json
+a4f9e43c4ec3c4143f855dc44d6d38e71cd4666a data/firstmod/loot_tables/blocks/ruby_door.json
+8ca7dcb509681f7b630c2b07a41e47de7a8d8c8a data/firstmod/loot_tables/blocks/ruby_fence.json
+339fb981362e1c7d89d9b9e7816edce517eb4e3a data/firstmod/loot_tables/blocks/ruby_fence_gate.json
+bf04c9ce1c9aa562956aa24a827af1e1e1b2a2b1 data/firstmod/loot_tables/blocks/ruby_ore_deepslate.json
+2eb3b6e560b90506451e6280ea7aac04e63c7bae data/firstmod/loot_tables/blocks/ruby_ore_stone.json
+35d4ca369946a7badd70ceb7103f57aeb1011426 data/firstmod/loot_tables/blocks/ruby_pressure_plate.json
+26f8d3ab3c38ea85033423e254db01e010888836 data/firstmod/loot_tables/blocks/ruby_slab.json
+3a76c31c25e5d838733a4dc4512a29eca4f35897 data/firstmod/loot_tables/blocks/ruby_stairs.json
+3b8fbadbfdf9047b63aaa158a64123da43813b40 data/firstmod/loot_tables/blocks/ruby_trapdoor.json
+534f0ecfc3a8fc5e882b087f8a02bc1aad1add7a data/firstmod/loot_tables/blocks/ruby_wall.json

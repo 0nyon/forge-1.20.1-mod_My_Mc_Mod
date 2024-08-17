@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "firstmod:ruby_door"
+    },
+    "T": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ITI",
+    "DRD"
+  ],
+  "result": {
+    "item": "firstmod:amogus"
+  },
+  "show_notification": true
+}
