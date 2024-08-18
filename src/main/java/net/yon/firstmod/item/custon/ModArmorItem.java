@@ -28,7 +28,7 @@ public class ModArmorItem extends ArmorItem {
                     // if you want to add armor effects to another armor material, add ".put" and do the same thing done in the first "put" method,
                     // just put the Armor material first and then an array of whatever effects you want
                     .put(ModArmorMaterials.INVIS,
-                            new MobEffectInstance[]{new MobEffectInstance(MobEffects.INVISIBILITY, 200, 1,
+                            new MobEffectInstance[]{new MobEffectInstance(MobEffects.INVISIBILITY, 20, 1,
                                     false, false, true)})
                     .build();
 
@@ -57,7 +57,7 @@ public class ModArmorItem extends ArmorItem {
         List<MobEffectInstance> effectsPlayerDoesntHave = new ArrayList<MobEffectInstance>(mapStatusEffects.length);
         for(int i=0; i<mapStatusEffects.length; i++) {
             //hasPlayerEffects = player.hasEffect(mapStatusEffect[i].getEffect()); //check if the effect given to us in the parameters is active on the player
-            if(!player.hasEffect(mapStatusEffects[i].getEffect()) || player.getEffect(mapStatusEffects[i].getEffect()).getDuration() <= 200) {
+            if(!player.hasEffect(mapStatusEffects[i].getEffect()) || player.getEffect(mapStatusEffects[i].getEffect()).getDuration() <= 20) {
                effectsPlayerDoesntHave.add(mapStatusEffects[i]);
                 //hasPlayerEffects = false;
             }
@@ -71,7 +71,7 @@ public class ModArmorItem extends ArmorItem {
     }
 
     //return true if all armor slots aren't empty (armor slots can have a lot of different items in them)
-    public boolean hasFullSuitOfArmorOn(Player player){
+    protected boolean hasFullSuitOfArmorOn(Player player){
         ItemStack boots = player.getInventory().getArmor(0);
         ItemStack leggings = player.getInventory().getArmor(1);
         ItemStack breastplate = player.getInventory().getArmor(2);
@@ -80,7 +80,7 @@ public class ModArmorItem extends ArmorItem {
         return !boots.isEmpty() && !leggings.isEmpty() && !breastplate.isEmpty() && !helmet.isEmpty();
     }
 
-    public boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
+    protected boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
         for (ItemStack armorStack : player.getInventory().armor) { //for each armor slot,
             if(!(armorStack.getItem() instanceof ArmorItem)) {// check if it's an armor item (not an elytra)
                 return false; //if it is return that the player has wrong armor on

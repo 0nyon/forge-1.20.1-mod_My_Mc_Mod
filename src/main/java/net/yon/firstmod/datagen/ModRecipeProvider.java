@@ -238,10 +238,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //wizard hat
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZARD_HAT.get() /*result of the recipe*/) // Shaped Recipe
                 .pattern("GGG") // {
-                .pattern("G G") //   pattern of recipe
-                .pattern("   ") // }
+                .pattern("GEG") //   pattern of recipe
+                .pattern(" I ") // }
                 .define('G', Items.TINTED_GLASS) // keys
+                .define('E', Items.ENCHANTING_TABLE) // keys
+                .define('I', Items.ENCHANTED_BOOK) // keys
                 .unlockedBy(getHasName(Items.TINTED_GLASS), has(Items.TINTED_GLASS)) // what item unlocks this recipe in the recipe book
+                .unlockedBy(getHasName(Items.ENCHANTING_TABLE), has(Items.ENCHANTING_TABLE)) // what item unlocks this recipe in the recipe book
+                .unlockedBy(getHasName(Items.ENCHANTED_BOOK), has(Items.ENCHANTED_BOOK)) // what item unlocks this recipe in the recipe book
                 .save(consumer);
 
         //amogus

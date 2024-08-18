@@ -58,6 +58,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RUBY_CHESTPLATE.get());
                         output.accept(ModItems.RUBY_LEGGINGS.get());
                         output.accept(ModItems.RUBY_BOOTS.get());
+                        output.accept(ModItems.WIZARD_HAT.get());
 
                         //amogus
                         output.accept(ModItems.AMOGUS.get());

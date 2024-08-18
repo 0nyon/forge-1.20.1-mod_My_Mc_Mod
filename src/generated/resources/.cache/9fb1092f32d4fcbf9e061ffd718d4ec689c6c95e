@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-07T18:26:05.7505849	Recipes
+// 1.20.1	2024-08-18T00:24:58.3631002	Recipes
 ea8647249f646c32e828fb2d819bff3fcb4034b2 data/firstmod/advancements/recipes/misc/amogus.json
 fa8bb4aff9571617867fcb461c574448a6c2df19 data/firstmod/advancements/recipes/misc/bell_block.json
 f3eeab7e528a84ea58c9228b22ee2bd6ff6d450d data/firstmod/advancements/recipes/misc/cat.json
@@ -22,6 +22,7 @@ af3944856de06c396d602c173619da2a2b626bb2 data/firstmod/advancements/recipes/misc
 97c7221e759c8f83a8df8f9aec4692412717c50f data/firstmod/advancements/recipes/misc/ruby_pickaxe.json
 5afd40f37dd973b6675f8b9dbb5f9f5c00c841b1 data/firstmod/advancements/recipes/misc/ruby_shovel.json
 1a9104024ae282cc3e3ff5c43587c41ceb9e6ae4 data/firstmod/advancements/recipes/misc/ruby_sword.json
+90f31e048bd88d35fff1b7ee0e7a984df2ecf2a2 data/firstmod/advancements/recipes/misc/wizard_hat.json
 ead5ab01e51a6cadbcf1960decc5f80e0ec23c5d data/firstmod/recipes/amogus.json
 2dbfce0ceb837bf09857ce4a1f18e08c8dff15ac data/firstmod/recipes/bell_block.json
 dd5c368f1af4a54326238e8d57955d0c0666cf76 data/firstmod/recipes/cat.json
@@ -45,6 +46,7 @@ e37a3d2ab6dba9caf815398d45920e05de144962 data/firstmod/recipes/ruby_leggings.jso
 3da3b1ae6f5e659376856dd67e79b0f5367f8fbc data/firstmod/recipes/ruby_pickaxe.json
 5bdb5754433bdcf3ae2142708db21c6650d14f88 data/firstmod/recipes/ruby_shovel.json
 ec1759273f9545adc3875cc95267bcea10cb4d3a data/firstmod/recipes/ruby_sword.json
+8d2429b8b3686d6f97fea3000ba6993e31fe2c25 data/firstmod/recipes/wizard_hat.json
 13ca972d7ef3a267a4aef562339069e01bd99fb2 data/minecraft/advancements/recipes/misc/coal.json
 824f9d31c41f0ed6bbbde209be93d73a59f3db76 data/minecraft/advancements/recipes/misc/cooked_tropical_fish_from_smoking.json
 cd8cdab2d97dbfa0f2daf46392eb392828d7c40d data/minecraft/advancements/recipes/misc/ruby_from_ruby_fragments.json
