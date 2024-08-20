@@ -1,14 +1,19 @@
 package net.yon.firstmod.item;
 
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yon.firstmod.FirstMod;
 import net.yon.firstmod.item.custon.*;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ModItems {
 
@@ -33,7 +38,13 @@ public class ModItems {
 
     //cooked tropical fish
     public static final RegistryObject<Item> COOKED_TROPICAL_FISH = ITEMS.register("cooked_tropical_fish",
-            () -> new Item(new Item.Properties().food(ModFoods.COOKED_TROPICAL_FISH)));
+            () -> new Item(new Item.Properties().food(ModFoods.COOKED_TROPICAL_FISH)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+                    pTooltipComponents.add(Component.translatable("tooltip.firstmod.cooked_tropical_fish.tooltip"));
+                    super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+                }
+            });
 
     //amogus
     public static final RegistryObject<Item> AMOGUS = ITEMS.register("amogus",
