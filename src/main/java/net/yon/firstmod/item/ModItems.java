@@ -98,8 +98,6 @@ public class ModItems {
     public static final RegistryObject<Item> WIZARD_HAT = ITEMS.register("wizard_hat",
             () -> new ModInvisArmorItem(ModArmorMaterials.INVIS, ArmorItem.Type.HELMET, new Item.Properties()));
 
-
-
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

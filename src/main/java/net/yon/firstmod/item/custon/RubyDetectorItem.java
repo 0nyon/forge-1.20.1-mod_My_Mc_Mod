@@ -72,5 +72,4 @@ public class RubyDetectorItem extends Item {
     }
 
 
-
 }
