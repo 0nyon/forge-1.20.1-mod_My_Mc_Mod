@@ -10,4 +10,8 @@ public class ModFoods {
 
     public static final FoodProperties FAKE_DIAMOND_PICKAXE = new FoodProperties.Builder().nutrition(4)
             .saturationMod(1f).build();
+
+    public static final FoodProperties STARFRUIT = new FoodProperties.Builder().nutrition(4)
+            .saturationMod(0.5f).build();
+
 }

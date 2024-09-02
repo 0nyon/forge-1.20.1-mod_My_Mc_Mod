@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-22T15:33:49.6923968	Loot Tables
+// 1.20.1	2024-09-02T12:18:09.7199942	Loot Tables
 fdf8d88eb3905edbaa12da3795e92a141b1399d3 data/firstmod/loot_tables/blocks/bell_block.json
 2a23fbf3a8be958b421c6200db098f8b7ffbbd13 data/firstmod/loot_tables/blocks/ruby_block.json
 a2eb7169454efbfad3a77559d3c3167c8eb2400b data/firstmod/loot_tables/blocks/ruby_button.json
@@ -12,3 +12,4 @@ bf04c9ce1c9aa562956aa24a827af1e1e1b2a2b1 data/firstmod/loot_tables/blocks/ruby_o
 3a76c31c25e5d838733a4dc4512a29eca4f35897 data/firstmod/loot_tables/blocks/ruby_stairs.json
 3b8fbadbfdf9047b63aaa158a64123da43813b40 data/firstmod/loot_tables/blocks/ruby_trapdoor.json
 534f0ecfc3a8fc5e882b087f8a02bc1aad1add7a data/firstmod/loot_tables/blocks/ruby_wall.json
+cb4f5fba7b2325150cd85ace80eec0a719e128b0 data/firstmod/loot_tables/blocks/starfruit_crop.json

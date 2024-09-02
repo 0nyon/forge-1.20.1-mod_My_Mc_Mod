@@ -66,6 +66,7 @@ public class FirstMod
         event.accept(ModBlocks.RUBY_ORE_DEEPSLATE);
     } else if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
         event.accept(ModItems.COOKED_TROPICAL_FISH);
+        event.accept(ModItems.STARFRUIT);
     } else if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS){
         event.accept(ModBlocks.RUBY_PRESSURE_PLATE);
         event.accept(ModBlocks.RUBY_BUTTON);

@@ -3,6 +3,8 @@
   "item.firstmod.ruby_fragment": "Ruby Fragment",
   "item.firstmod.ruby_detector": "Ruby Detector",
   "item.firstmod.cooked_tropical_fish": "Cooked Tropical Fish",
+  "item.firstmod.starfruit": "Starfruit",
+  "item.firstmod.starfruit_seeds": "Starfruit Seeds",
   "item.firstmod.fake_diamond_pickaxe": "Fake Diamond Pickaxe",
   "item.firstmod.coal_powder": "Coal Powder",
   "item.firstmod.cat": "Cat",
@@ -22,6 +24,7 @@
   "tooltip.firstmod.ruby_detector.tooltip": "It Finds Rubies Underground!",
   "tooltip.firstmod.meow.tooltip": "Spawns an item!",
   "tooltip.firstmod.cooked_tropical_fish.tooltip": "Taste The Rainbow!",
+  "tooltip.firstmod.starfruit.tooltip": "Totally Not A Bell Pepper ",
 
   "block.firstmod.ruby_block": "Ruby Block",
   "block.firstmod.bell_block": "Bell Block",

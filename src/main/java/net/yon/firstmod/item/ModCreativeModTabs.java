@@ -27,6 +27,8 @@ public class ModCreativeModTabs {
                         //foods
                         output.accept(ModItems.COOKED_TROPICAL_FISH.get());        // cooked tropical fish
                         output.accept(ModItems.FAKE_DIAMOND_PICKAXE.get());        // fake diamond pickaxe
+                        output.accept(ModItems.STARFRUIT.get());        // starfruit
+                        output.accept(ModItems.STARFRUIT_SEEDS.get());        // starfruit
                         //fuel
                         output.accept(ModItems.COAL_POWDER.get());              //coal powder
                         //blocks

@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-17T21:42:26.4262325	Item Models: firstmod
+// 1.20.1	2024-09-02T12:18:09.7215085	Item Models: firstmod
 02712499120e8684e866a47fa1441f4a531e3b0a assets/firstmod/models/item/cat.json
 3b91c6e9675263fa06d42098a17da4c8ef517444 assets/firstmod/models/item/coal_powder.json
 11d3a81ead4579435b16c9397bbd00a4e8b9c3d3 assets/firstmod/models/item/cooked_tropical_fish.json
@@ -64,6 +64,8 @@ a4373d5e7e79340d0770328ae0b7999ed1e13c0c assets/firstmod/models/item/ruby_leggin
 50c919087339ad16c29631b71d832e67488fa40e assets/firstmod/models/item/ruby_sword.json
 6978278a0e320317d3b054d33047e6679dbe82da assets/firstmod/models/item/ruby_trapdoor.json
 ac1b351255a8863969641a063669240c0c3ac2fe assets/firstmod/models/item/ruby_wall.json
+d1bcbd2ad947d2f07a888aed767ab6c0219b25e3 assets/firstmod/models/item/starfruit.json
+06e45ccb0e52b010c29c89e05b56bece41f797cb assets/firstmod/models/item/starfruit_seeds.json
 90c625d1ad000940a27546b588abee29524e4d07 assets/firstmod/models/item/wizard_hat.json
 4da3fd498806c77ebbdbc907f4fab9408b90739b assets/firstmod/models/item/wizard_hat_amethyst_trim.json
 c6aa60022bc67e00ed191859a5e332610577abf8 assets/firstmod/models/item/wizard_hat_copper_trim.json

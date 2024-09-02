@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yon.firstmod.FirstMod;
+import net.yon.firstmod.block.ModBlocks;
 import net.yon.firstmod.item.custon.*;
 import org.jetbrains.annotations.Nullable;
 
@@ -45,6 +46,20 @@ public class ModItems {
                     super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
                 }
             });
+
+    //starfruit
+    public static final RegistryObject<Item> STARFRUIT= ITEMS.register("starfruit",
+            ()-> new Item(new Item.Properties().food(ModFoods.STARFRUIT)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+                    pTooltipComponents.add(Component.translatable("tooltip.firstmod.starfruit.tooltip"));
+                    super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+                }
+            });
+
+    //starfruit seeds
+    public static final RegistryObject<Item> STARFRUIT_SEEDS = ITEMS.register("starfruit_seeds",
+            ()-> new ItemNameBlockItem(ModBlocks.STARFRUIT_CROP.get(), new Item.Properties()));
 
     //amogus
     public static final RegistryObject<Item> AMOGUS = ITEMS.register("amogus",

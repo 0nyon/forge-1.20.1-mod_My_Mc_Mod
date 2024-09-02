@@ -1,12 +1,18 @@
 package net.yon.firstmod.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.yon.firstmod.FirstMod;
 import net.yon.firstmod.block.ModBlocks;
+import net.yon.firstmod.block.custom.StarfruitCropBlock;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
@@ -42,6 +48,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.RUBY_TRAPDOOR.get()), modLoc("block/ruby_trapdoor"),
                 true, "cutout");
 
+        //crops
+        makeStarfruitCrop((CropBlock) ModBlocks.STARFRUIT_CROP.get(), "starfruit_stage", "starfruit_stage");
+    }
+
+    private ConfiguredModel[] starfruitStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((StarfruitCropBlock) block).getAgeProperty()),
+                new ResourceLocation(FirstMod.MOD_ID, "block/" + textureName + state.getValue(((StarfruitCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
+    public void makeStarfruitCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> starfruitStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
     }
 
     // helper method that makes a block and an item for a block RegistryObject

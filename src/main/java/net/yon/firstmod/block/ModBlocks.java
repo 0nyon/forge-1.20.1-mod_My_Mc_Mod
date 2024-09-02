@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yon.firstmod.FirstMod;
 import net.yon.firstmod.block.custom.SoundBlock;
+import net.yon.firstmod.block.custom.StarfruitCropBlock;
 import net.yon.firstmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -91,7 +92,11 @@ public class ModBlocks {
                     BlockSetType.IRON)); /*<---- can go into the BlockSetType class and see the constructor if you want to do some custom stuff, I won't,
                     I just don't want to mess with the registering and all of that*/
 
+    //------------------------------------------------------------------------------------------------------------ crops
 
+    //we dont use the registeBlock method here because the registerBlock method also makes a block item of the same block here, but we want our block item to be the starfruit seeds
+    public static final RegistryObject<Block> STARFRUIT_CROP = BLOCKS.register("starfruit_crop",
+            () -> new StarfruitCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     //make register given block, and use register block item to link it to an item
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

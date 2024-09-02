@@ -1,5 +1,6 @@
 package net.yon.firstmod.datagen.loot;
 
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
@@ -10,9 +11,12 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import net.yon.firstmod.block.ModBlocks;
+import net.yon.firstmod.block.custom.StarfruitCropBlock;
 import net.yon.firstmod.item.ModItems;
 
 import java.util.Set;
@@ -55,6 +59,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.RUBY_SLAB.get()));
         this.add(ModBlocks.RUBY_DOOR.get(),
                 block -> createDoorTable(ModBlocks.RUBY_DOOR.get()));
+
+        //if the starfruits age is 4 drop a starfruit,
+        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.STARFRUIT_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StarfruitCropBlock.AGE, 4));
+        //drop seeds
+        this.add(ModBlocks.STARFRUIT_CROP.get(), createCropDrops(ModBlocks.STARFRUIT_CROP.get(), ModItems.STARFRUIT.get(),
+                ModItems.STARFRUIT_SEEDS.get(), lootitemcondition$builder));
 
     }
 

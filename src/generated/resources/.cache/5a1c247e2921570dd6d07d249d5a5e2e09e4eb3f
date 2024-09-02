@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-25T22:21:04.8509749	Block States: firstmod
+// 1.20.1	2024-09-02T12:18:09.7235294	Block States: firstmod
 d8ae4b6be572a13f390747be18278d12e90ffa56 assets/firstmod/blockstates/bell_block.json
 be4caedf91c64d03e5a3fb77fac890e36ecf0c3e assets/firstmod/blockstates/ruby_block.json
 8d329c2215568a41bc33f04540447db14d1a95ba assets/firstmod/blockstates/ruby_button.json
@@ -12,6 +12,7 @@ d3b7599162225c4d35023bbd62e07b421f6ff410 assets/firstmod/blockstates/ruby_fence_
 882ed7c6de9fd18bf007da9f3cd6945c9396fa7a assets/firstmod/blockstates/ruby_stairs.json
 2d22f656cab26e513882098c88cc4abc766a23e9 assets/firstmod/blockstates/ruby_trapdoor.json
 918771a5cab654146c9f9bf24cc025c8ec32691f assets/firstmod/blockstates/ruby_wall.json
+74cdaecb4d292ad04ba9bd6c4e16a93c2f50623c assets/firstmod/blockstates/starfruit_crop.json
 8cff11cf070793b72e3402ea0fd60cd95e4c19d0 assets/firstmod/models/block/bell_block.json
 25497e9925f3564236a13dc55f54548e43f7037d assets/firstmod/models/block/ruby_block.json
 727e7785eb1c354fcfb71e6dcf43918a49c58628 assets/firstmod/models/block/ruby_button.json
@@ -45,6 +46,11 @@ a0170c27d635f46bec6f8836811b2b708780a0ee assets/firstmod/models/block/ruby_trapd
 ec8fe6482bd052801f4063cabc2562372a967f35 assets/firstmod/models/block/ruby_wall_post.json
 9b9f2a72e0a3530e25108f05fe8c3a1a7a0852be assets/firstmod/models/block/ruby_wall_side.json
 fd4cfc6fa77dd86357e7952844a6b7941bbc0a0b assets/firstmod/models/block/ruby_wall_side_tall.json
+cd716900980b1435edf637c194f3ca79f76ac267 assets/firstmod/models/block/starfruit_stage0.json
+2cb6dc698b7bc2870f302b0f761cf50c55095eea assets/firstmod/models/block/starfruit_stage1.json
+d5f056ba491dde0901c4b75324ffe4403f4036a2 assets/firstmod/models/block/starfruit_stage2.json
+a61942ec49ff39b6eccbeb74417bc5d432f6526b assets/firstmod/models/block/starfruit_stage3.json
+48e7944930082672c890b3057c906237bff3a416 assets/firstmod/models/block/starfruit_stage4.json
 fd4082b5b195c7d3b75dbca817e3fc5966a407cb assets/firstmod/models/item/bell_block.json
 7bdb632b836551d73389c613633537efce008136 assets/firstmod/models/item/ruby_block.json
 be253f7b21f7c6141ee0a80f9010a3e7b89fb25e assets/firstmod/models/item/ruby_ore_deepslate.json

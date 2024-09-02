@@ -48,6 +48,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBY_DETECTOR);
         simpleItem(ModItems.COOKED_TROPICAL_FISH);
         simpleItem(ModItems.FAKE_DIAMOND_PICKAXE);
+        simpleItem(ModItems.STARFRUIT);
+        simpleItem(ModItems.STARFRUIT_SEEDS);
         simpleItem(ModItems.COAL_POWDER);
         simpleItem(ModItems.CAT);
 
